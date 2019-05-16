@@ -1,0 +1,42 @@
+"/ IdeaVim uses 'a' for alt instead of Vim's 'm'
+"/
+
+set ignorecase
+set visualbell
+set noerrorbells
+
+set surround
+set multiple-cursors
+
+set clipboard=unnamedplus,unnamed  "/ Integrate with system clipboard
+
+"/ leader and escape
+let mapleader = " "
+imap ,, <Esc>l
+vmap ,, <Esc>
+imap vv <Esc>l
+vmap vv <Esc>
+
+
+"/ key bindings for quickly moving between windows
+nmap <leader>h <c-w>h
+nmap <leader>l <c-w>l
+nmap <leader>k <c-w>k
+nmap <leader>j <c-w>j
+
+
+"/ fast moving
+nmap <a-j> 15gj
+nmap <a-k> 15gk
+
+
+"/ Open line (insert mode)
+imap <leader>O <esc>O
+imap <leader>o <esc>o
+"/ Open line (normal mode)
+nmap <leader>O O<esc>
+nmap <leader>o o<esc>
+
+
+
+
