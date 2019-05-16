@@ -11,7 +11,7 @@ set multiple-cursors
 set clipboard=unnamedplus,unnamed  "/ Integrate with system clipboard
 
 "/ leader and escape
-let mapleader = " "
+let mapleader = ","
 imap ,, <Esc>l
 vmap ,, <Esc>
 imap vv <Esc>l
