@@ -25,6 +25,13 @@ nmap <leader>k <c-w>k
 nmap <leader>j <c-w>j
 
 
+"/ moving around in insert mode
+imap <c-h> <left>
+imap <c-l> <right>
+imap <c-j> <down>
+imap <c-k> <up>
+
+
 "/ fast moving
 nmap <a-j> 15gj
 nmap <a-k> 15gk
@@ -36,7 +43,4 @@ imap <leader>o <esc>o
 "/ Open line (normal mode)
 nmap <leader>O O<esc>
 nmap <leader>o o<esc>
-
-
-
 
